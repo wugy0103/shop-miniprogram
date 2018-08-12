@@ -1,0 +1,43 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/demo/demo",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "门票售卖小程序",
+    "navigationBarTextStyle":"#999",
+    "enablePullDownRefresh": true,
+    "backgroundColor":"#fafafa"
+  },
+  "tabBar": {
+    "backgroundColor":"#000",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/icon-refresh.png",
+        "selectedIconPath": "images/icon-save.png"
+      },
+      {
+        "pagePath": "pages/demo/demo",
+        "text": "购物车",
+        "iconPath": "images/icon-refresh.png",
+        "selectedIconPath": "images/icon-save.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "我的",
+        "iconPath": "images/icon-refresh.png",
+        "selectedIconPath": "images/icon-save.png"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}
